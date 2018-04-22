@@ -1,0 +1,13 @@
+AllCops:
+  # Rubyのバージョンを指定
+  TargetRubyVersion: 2.5.1
+  # 除外するファイル
+  Exclude:
+    - vendor/bundle/**/*
+    - Gemfile
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
